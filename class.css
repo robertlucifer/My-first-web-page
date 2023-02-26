@@ -1,0 +1,351 @@
+*{
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s ease;
+  cursor: default;
+}
+body{
+ background-color: #c1f7f5;
+ width: 100%;
+ height: 50px;
+}
+h1{
+  font-family: 'Encode Sans', sans-serif;
+  cursor: default;
+  float:left;
+  padding: 30px 0 0 30px;
+  font-weight: 900;
+  color:#000;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    float:right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.navigation li{
+  list-style: none;
+  margin:  0 20px; /*margin can also use*/
+
+}
+.navigation li a{
+  position: relative;
+  color: #333;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 3px 0;
+
+}
+.navigation li a:before{ /*animation1*/
+  content: '';
+  position:absolute;
+  height: 2px;
+  width: 00%;
+  bottom: 0;
+  background-color:#000;
+  transition: all 0.5s ease;
+}
+.navigation li a:hover:before{
+  width: 100%
+
+}
+.text{
+  font-family: 'Catamaran', sans-serif;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  font-weight: 900;
+  font-size: 50px;
+  cursor: default;
+}
+.image_me{
+  position: absolute;
+  width: 400px;
+  height:400px;
+  top:225px;
+  right: 50px;
+}
+.about_me_heading{
+  font-size: 30px;
+  position: absolute;
+  top:780px;
+  left:510px;
+  cursor: default;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 900;
+}
+.quote1{
+  position: absolute;
+  left: 50px;
+  top :410px;
+  font-family: 'Martel', serif;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: default;
+  text-transform: capitalize;
+
+}
+.one{
+  font-family: 'Martel', serif;
+  font-weight: 900;
+  cursor: default;
+
+}
+.two{
+  color:#c1f7f5;
+  cursor: default;
+
+}
+.two:hover{
+  color:#000;
+  cursor: default;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+
+}
+.productivity{
+  position:absolute;
+  height: 200px;
+  width: 200px;
+  right:250px;
+  top:940px;
+}
+.three{
+    position: absolute;
+    top:940px;
+    left: 200px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.quote2{
+   position: absolute;
+   top:1020px;
+   left: 200px;
+   font-size: 20px;
+   font-family: 'Martel', serif;
+  text-transform: capitalize;
+  font-weight: 700;
+
+}
+.learner{
+  position: absolute;
+  top:1200px;
+  height: 200px;
+  width: 200px;
+  left:300px;
+
+}
+.four{
+  position: absolute;
+  top:1200px;
+  right: 610px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+.quote3{
+  position: absolute;
+  top:1280px;
+  right: 250px;
+  font-size: 20px;
+  font-family: 'Martel', serif;
+ text-transform: capitalize;
+ font-weight: 700;
+
+}
+.skills_heading{
+  font-size: 30px;
+  position: absolute;
+  top:1500px;
+  left:550px;
+  cursor: default;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 900;
+}
+.logical{
+  position:absolute;
+  height: 200px;
+  width: 200px;
+  right:250px;
+  top:1600px;
+}
+.five{
+  position: absolute;
+  top:1600px;
+  left: 200px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.quote4{
+  position: absolute;
+  top:1680px;
+  left: 200px;
+  font-size: 20px;
+  font-family: 'Martel', serif;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.fitness{
+  position: absolute;
+  top:1960px;
+  height: 200px;
+  width: 200px;
+  left:300px;
+}
+.six{
+  position: absolute;
+  top:1960px;
+  right: 510px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.quote5{
+  position: absolute;
+  top:2040px;
+  left: 650px;
+  font-size: 20px;
+  font-family: 'Martel', serif;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.contact_heading{
+  font-size: 30px;
+  position: absolute;
+  top:2240px;;
+  left:200px;
+  cursor: default;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 900;
+}
+.feed_back{
+  font-size: 30px;
+  position: absolute;
+  top:2240px;;
+  right:200px;
+  cursor: default;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 900;
+}
+.mobile{
+  position: absolute;
+  top:2320px;
+  left:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.mobile_no{
+  position: absolute;
+  top:2355px;
+  left:200px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+}
+.email{
+  position: absolute;
+  top:2400px;
+  left:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.email_address{
+  position: absolute;
+  top:2435px;
+  left:200px;
+ font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+}
+.Address{
+  position: absolute;
+  top:2480px;
+  left:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.Address_content{
+  position: absolute;
+  top:2520px;
+  left:200px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+}
+.name{
+  position: absolute;
+  top:2320px;
+  right:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.name_box{
+  position: absolute;
+  top:2355px;
+  right:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+.Description{
+  position: absolute;
+  top:2400px;
+  right: 200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.Description_box{
+
+  position: absolute;
+  top:2435px;
+  right:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+.button{
+  position: absolute;
+  top:2610px;
+  right:200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+  border-color: #fff;
+  padding: 10px;
+}
+.fun{
+  font-size: 30px;
+  position: absolute;
+  top:2700px;
+  left:530px;
+  cursor: default;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 900;
+}
+.Game{
+  font-size: 50px;
+  color:red;
+}

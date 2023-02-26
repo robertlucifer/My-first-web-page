@@ -1,0 +1,9 @@
+#c1f7f5
+#7a7a7a 
+font Merienda
+font Cookie
+768 1024
+F2bb05
+b5ffe1
+45cb85
+#27FB6B
